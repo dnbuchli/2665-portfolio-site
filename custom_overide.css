@@ -1,5 +1,6 @@
-.black{background: black;}
-footer{color:#FFF;}
+.black{background: black;
+       color:#FFF;}
+
 .column, .columns {border: 1px solid red;}
 
 .clear-padding{padding:0;}
@@ -32,12 +33,18 @@ h2{margin:50px 0px;}
   color: #fff;
   visibility: hidden;
   text-decoration: none;
-  transition: all 0.05s ease-in-out;
-}
+  transition: all 0.05s ease-in-out;}
 
-.project-info:hover a {
-  visibility: visible;
-}
+.project-img{margin:20px 0px;}
+
+.project-info:hover a {visibility: visible;}
+
+.tab-bar {background: transparent;}
+
+.tab-bar .menu-icon span::after {box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;}
+
+.right-small {border-left:none;}
+
 
 
 
