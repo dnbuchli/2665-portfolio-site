@@ -47,4 +47,20 @@ h2{margin:50px 0px;}
 
 
 
+@media only screen and (max-width: 40em) {
+
+  footer{text-align: center;}
+  .project-img{padding:0;}
+  .h-logo{display: none;}
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+  .project-img{padding:0;}
+
+}
+
+
+
 
