@@ -1,29 +1,35 @@
-.black{background: black;
-       color:#FFF;}
+/*TEMPORARY STYLING*/
+.black{
+  background: black;
+  color:#FFF;}
 
-.column, .columns {border: 1px solid red;}
+.column, .columns {
+  border: 1px solid red;}
 
-.clear-padding{padding:0;}
+body{
+  background-color:#f2f2f2;}
 
-.large-6 textarea{height:200px;}
+/*DIV STYLING*/
 
-body{background-color:#f2f2f2;}
+.clear-padding{
+  padding:0;}
 
-.the-passion{margin-top:-230px;}
+
+/*INDIVIDUAL STYLING*/
+
+.the-passion{
+  margin-top:-230px;}
+
+.project-info{
+  position: relative;}
 
 h2{margin:50px 0px;}
 
-
-.project-info {
-  position: relative;
-}
-
 .project-info h3, .project-info p {
   margin: 20px;
-  color:white;
-}
+  color:white;}
 
-.project-info a {
+.project-info a{
   position: absolute;
   top: 0;
   left: 0;
@@ -35,20 +41,27 @@ h2{margin:50px 0px;}
   text-decoration: none;
   transition: all 0.05s ease-in-out;}
 
-.project-img{margin:20px 0px;}
+.project-img{
+  margin:20px 0px;}
 
-.project-info:hover a {visibility: visible;}
+.project-info:hover a{
+  visibility: visible;}
 
-.tab-bar {background: transparent;}
+.tab-bar {
+  background: transparent;}
 
-.tab-bar .menu-icon span::after {box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;}
+.tab-bar .menu-icon span::after{
+  box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;}
 
-.right-small {border-left:none;}
+.right-small{
+  border-left:none;}
 
-a.right-off-canvas-toggle.menu-icon{position:fixed;}
+.large-6 textarea{
+  height:200px;}
 
 
 
+/*MEDIA QUERIES*/
 @media only screen and (max-width: 40em) {
 
   footer{text-align: center;}
