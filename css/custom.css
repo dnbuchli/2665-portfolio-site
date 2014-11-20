@@ -47,18 +47,69 @@ h2{margin:50px 0px;}
 .project-info:hover a{
   visibility: visible;}
 
-.tab-bar {
-  background: transparent;}
-
-.tab-bar .menu-icon span::after{
-  box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;}
-
-.right-small{
-  border-left:none;}
-
 .large-6 textarea{
   height:200px;}
 
+
+#menu {
+         position: fixed;
+         top: 0;
+         bottom: 0;
+         width: 13.755em;
+         right: -13.755em;
+         height: 100%;
+         -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+        -webkit-transition: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: 0.15s ease;
+   }
+
+ #menu.active {
+        -webkit-transform: translate(-13.755em, 0px);
+        -moz-transform: translate(-13.755em, 0px);
+        -o-transform: translate(-13.755em, 0px);
+        -ms-transform: translate(-13.755em, 0px);
+        transform: translate(-13.755em, 0px);
+}
+
+.container {
+       -webkit-transform: translate(0px, 0px);
+       -moz-transform: translate(0px, 0px);
+       -o-transform: translate(0px, 0px);
+       -ms-transform: translate(0px, 0px);
+       transform: translate(0px, 0px);
+       -webkit-transition: 0.15s ease;
+       -moz-transition: 0.15s ease;
+       -o-transition: 0.15s ease;
+       transition: 0.15s ease;  
+}
+
+.container.active {
+       -webkit-transform: translate(-13.725em, 0px);
+       -moz-transform: translate(-13.725em, 0px);
+       -o-transform: translate(-13.725em, 0px);
+       -ms-transform: translate(-13.725em, 0px);
+       transform: translate(-13.725em, 0px);
+}
+
+.menu-link {
+      position: absolute;
+      top: 15px;
+      left: -50px;
+}
+
+#menu a:visited{color:blue;}
+
+#menu a{color:green;}
+
+#menu a:hover{color:red;}
+
+nav#menu{z-index: 1000;}
 
 
 /*MEDIA QUERIES*/

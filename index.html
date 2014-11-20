@@ -11,21 +11,10 @@
   <body>
 
 
-<nav class="tab-bar">
-  <div class="right-small">
-    <a href="#off-canvas-menu" role="button" aria-controls="off-canvas-menu"  aria-expanded="false" class="right-off-canvas-toggle menu-icon"><span></span></a>
-  </div>
-</nav>
-
-
-
-<div class="off-canvas-wrap" data-offcanvas>
-  <div class="inner-wrap">
-
-
     <!-- Off Canvas Menu -->
-    <aside class="right-off-canvas-menu">
-        <!-- whatever you want goes here -->
+
+<nav id="menu">
+    <a href="#menu" class="menu-link">AY</a>
         <ul>
           <li><img src="img/index.svg" alt="logo"></li>
           <li><a href="#">HOME</a></li>
@@ -34,9 +23,12 @@
           <li><a href="#mydrive">MY DRIVE</a></li>
           <li><a href="#talkdesign">LET'S TALK DESIGN</a></li>
         </ul>
-    </aside>
+</nav>
+
 
     <!-- main content goes here -->
+<div class="container">
+
 
 
    <div class="row h-logo">
@@ -261,20 +253,22 @@
 
 
 
-  
+  </div>
 
 
   <!-- close the off-canvas menu -->
-  <a class="exit-off-canvas"></a>
-
-  </div>
-</div>
 
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+    </script>
+    <script>
+    $(".menu-link").click(function(){
+          $("#menu").toggleClass("active");
+          $(".container").toggleClass("active");
+    });
     </script>
   </body>
 </html>
