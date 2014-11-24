@@ -11,32 +11,23 @@
   <body>
 
 
-<nav class="tab-bar">
-  <div class="right-small">
-    <a href="#off-canvas-menu" role="button" aria-controls="off-canvas-menu" aria-expanded="false" class="right-off-canvas-toggle menu-icon" ><span></span></a>
-  </div>
+<!-- Off Canvas Menu -->
+
+<nav id="menu">
+  <a href="#menu" class="menu-link">MENU</a>
+    <ul>
+      <li><img src="../img/index.svg" alt="logo"></li>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="../index.html#thepassion">THE PASSION</a></li>
+      <li><a href="../index.html#justme">JUST ME</a></li>
+      <li><a href="../index.html#mydrive">MY DRIVE</a></li>
+      <li><a href="../index.html#talkdesign">LET'S TALK DESIGN</a></li>
+    </ul>
 </nav>
 
 
-
-<div class="off-canvas-wrap" data-offcanvas>
-  <div class="inner-wrap">
-
-
-    <!-- Off Canvas Menu -->
-    <aside class="right-off-canvas-menu">
-        <!-- whatever you want goes here -->
-        <ul>
-          <li><img src="../img/index.svg" alt="logo"></li>
-          <li><a href="../index.html">HOME</a></li>
-          <li><a href="../index.html#thepassion">THE PASSION</a></li>
-          <li><a href="../index.html#justme">JUST ME</a></li>
-          <li><a href="../index.html#mydrive">MY DRIVE</a></li>
-          <li><a href="../index.html#talkdesign">LET'S TALK DESIGN</a></li>
-        </ul>
-    </aside>
-
-    <!-- main content goes here -->
+<!-- main content goes here -->
+<div class="container">
 
 
     <div class="row">
@@ -68,18 +59,12 @@
 
   <footer>
   <div class="row">
-    <div class="large-6 columns"><a href="afan.html">PREVIOUS</a></div>
-    <div class="large-6 columns"><a href="pinnacle.html">NEXT</a></div>
+    <div class="large-6 medium-6 columns"><a href="afan.html">PREVIOUS</a></div>
+    <div class="large-6 medium-6 columns"><a href="pinnacle.html">NEXT</a></div>
   </div>
 </footer>
 
 
-
-
-  <!-- close the off-canvas menu -->
-  <a class="exit-off-canvas"></a>
-
-  </div>
 </div>
 
 
@@ -88,5 +73,13 @@
     <script>
       $(document).foundation();
     </script>
+    <script>
+    $(".menu-link").click(function(){
+          $("#menu").toggleClass("active");
+          $(".container").toggleClass("active");
+    });
+    </script>
+
+    
   </body>
 </html>
