@@ -17,6 +17,8 @@ body{
 
 /*INDIVIDUAL STYLING*/
 
+footer{text-align: center;}
+
 .the-passion{
   margin-top:-230px;}
 
@@ -117,7 +119,6 @@ nav#menu{
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 40em) {
 
-  footer{text-align: center;}
   .project-img{padding:0;}
   .h-logo{display: none;}}
 

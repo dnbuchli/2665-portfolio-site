@@ -12,17 +12,16 @@
 
 
 <!-- Off Canvas Menu -->
-
 <nav id="menu">
-  <a href="#menu" class="menu-link">MENU</a>
-    <ul>
-      <li><img src="../img/index.svg" alt="logo"></li>
-      <li><a href="../index.html">HOME</a></li>
-      <li><a href="../index.html#thepassion">THE PASSION</a></li>
-      <li><a href="../index.html#justme">JUST ME</a></li>
-      <li><a href="../index.html#mydrive">MY DRIVE</a></li>
-      <li><a href="../index.html#talkdesign">LET'S TALK DESIGN</a></li>
-    </ul>
+    <a href="#menu" class="menu-link">MENU</a>
+        <ul>
+          <li><img src="../img/index.svg" alt="logo"></li>
+          <li><a class="sub-link" href="../index.html">HOME</a></li>
+          <li><a class="sub-link" href="../index.html#thepassion">THE PASSION</a></li>
+          <li><a class="sub-link" href="../index.html#justme">JUST ME</a></li>
+          <li><a class="sub-link" href="../index.html#mydrive">MY DRIVE</a></li>
+          <li><a class="sub-link" href="../index.html#talkdesign">LET'S TALK DESIGN</a></li>
+        </ul>
 </nav>
 
 
@@ -67,20 +66,53 @@
 
 
 
+<!-- close the body container -->
 </div>
 
 
-    <script src="../js/vendor/jquery.js"></script>
-    <script src="../js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-    <script>
-    $(".menu-link").click(function(){
-          $("#menu").toggleClass("active");
-          $(".container").toggleClass("active");
+
+
+<script src="../js/vendor/jquery.js"></script>
+
+<script src="../js/foundation.min.js"></script>
+
+<script>
+  $(document).foundation();
+</script>
+
+
+<!-- navigation scripts -->
+<script>
+  $(".menu-link").click(function(){
+    $("#menu").toggleClass("active");
+    $(".container").toggleClass("active");
     });
-    </script>
-    
+</script>
+
+<script>
+  $(".sub-link").click(function(){
+    $("#menu").toggleClass("active");
+    $(".container").toggleClass("active");
+    });
+</script>
+
+<!-- scroll script -->
+<script>
+    $(document).ready(function(){
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+</script>
+
   </body>
 </html>
