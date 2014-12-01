@@ -17,6 +17,8 @@ body{
 
 /*INDIVIDUAL STYLING*/
 
+p{margin-bottom:10px;}
+
 footer{text-align: center;}
 
 .the-passion{
@@ -115,16 +117,29 @@ h2{margin:50px 0px;}
 nav#menu{
   z-index: 1000;}
 
+.project-nav{margin-bottom:20px;}
+
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 40em) {
 
-  .project-img{padding:0;}
-  .h-logo{display: none;}}
+  .project-img{
+    padding:0;}
+
+
+  .the-passion{
+  margin-top:75px;}
+
+  .contact-form{margin:50px 0px 0px 0px;}
+
+}
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
-  .project-img{padding:0;}}
+  .project-img{
+    padding:0;}
+
+  }
 
 
 
