@@ -17,17 +17,28 @@ body{
 
 /*INDIVIDUAL STYLING*/
 
-p{margin-bottom:10px;}
+p{margin-bottom:0;
+  font-family:'cooper_hewittbook';
+  font-size:11pt;
+  line-height: 21pt;}
 
-footer{text-align: center;}
+footer{text-align: center;
+  background:#3a3a3a;
+  color:#FFF;
+  padding:10px 0px;
+}
 
 .the-passion{
-  margin-top:-230px;}
+  margin-top:-250px;}
 
 .project-info{
-  position: relative;}
+  position:relative;}
 
-h2{margin:50px 0px;}
+h2{margin:50px 0px;
+  font-family:'cooper_hewittsemibold';
+  text-transform:lowercase;
+  font-size:40pt;
+  color:#f1475e;}
 
 .project-info h3, .project-info p {
   margin: 20px;
