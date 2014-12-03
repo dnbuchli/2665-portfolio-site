@@ -7,7 +7,7 @@
   border: 1px solid red;}*/
 
 body{
-  background-color:#f2f2f2;}
+  background-color:#FFF;}
 
 /*DIV STYLING*/
 
@@ -29,7 +29,7 @@ footer{text-align: center;
 }
 
 .the-passion{
-  margin-top:-250px;}
+  margin-top:-185px;}
 
 .project-info{
   position:relative;}
@@ -40,9 +40,61 @@ h2{margin:50px 0px;
   font-size:40pt;
   color:#f1475e;}
 
-.project-info h3, .project-info p {
-  margin: 20px;
-  color:white;}
+h2:before{content: url('img/slash.svg');
+  position:relative;
+  top:-2px;
+  margin-right:-12px;}
+
+.project-info h3{color:#FFF;
+  padding:8% 8% 3% 8%;
+  font-family:'cooper_hewittlight';
+  font-size:25pt;
+  margin: 0;}
+
+h4{padding:3% 8% 8% 8%;   
+  font-family:'cooper_hewittsemibold';
+  text-transform: uppercase;
+  font-size: 14pt;
+  color:#FFF;}
+
+h5{font-family:'cooper_hewittsemibold';
+  text-transform: uppercase;
+  font-size: 14pt;
+  color:#f1475e;
+  margin: 0;}
+
+h6{font-family: 'cooper_hewittsemibold_italic';
+  font-size: 15pt;
+  color:#3a3a3a;
+  margin: 0;
+  display:inline;
+  line-height: 30pt;}
+
+#inline-text{display:inline;
+  font-size: 14pt;}
+
+#project-header:before{content: none;}
+
+
+#project-header{font-family:'cooper_hewittlight';
+  font-size:35pt;
+  color:#10838c;
+  text-transform: none;
+  padding:50px 0px;}
+
+#project-header hr{width:100%;
+  margin-top:35px;}
+
+#project-header img{width:20%;
+  z-index: 1;}
+
+
+hr{background-color:#f1475e;
+  height: 2px;
+  display: block;
+  border: 0;
+  width: 84%;
+  margin: 0 auto;}
 
 .project-info a{
   position: absolute;
@@ -50,14 +102,22 @@ h2{margin:50px 0px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
-  color: #fff;
+  background-color: #10838c;
+  background-image: url(http://media.dallas.city.cx/sites/70/2014-02/c398MnNN-1170x783.jpg);
+  background-blend-mode: multiply;
+  color: #FFF;
   visibility: hidden;
   text-decoration: none;
   transition: all 0.05s ease-in-out;}
 
+.project-info-center{position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);}
+
 .project-img{
-  margin:20px 0px;}
+  margin-top:100px;}
 
 .project-info:hover a{
   visibility: visible;}
@@ -114,7 +174,9 @@ h2{margin:50px 0px;
 .menu-link {
   position: absolute;
   top: 15px;
-  left: -70px;}
+  left: -50px;}
+
+.menu-link img{width:10%;}
 
 #menu a:visited{
   color:blue;}
@@ -128,7 +190,24 @@ h2{margin:50px 0px;
 nav#menu{
   z-index: 1000;}
 
+#menu li img{padding:20px;}
+
 .project-nav{margin-bottom:20px;}
+
+
+input[type="text"], textarea{border-radius: 5px;
+  border-color: #10838c;
+  border-width: 3px;
+  box-shadow: none;}
+
+.button{border-top: solid 3px #f1475e;
+  border-bottom: solid 3px #f1475e;
+  background-color: transparent;}
+
+.button h5{padding-bottom: 0;}
+
+a.button:hover{color:none;
+  border-color:none;}
 
 
 /*MEDIA QUERIES*/
