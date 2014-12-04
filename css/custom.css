@@ -197,7 +197,7 @@ nav#menu{
 
 #menu li img{padding:20px;}
 
-.project-nav{margin-bottom:20px;}
+.project-nav div{margin:50px 0px;}
 
 
 input[type="text"], textarea{border-radius: 5px;
@@ -209,10 +209,12 @@ input[type="text"], textarea{border-radius: 5px;
   border-bottom: solid 3px #f1475e;
   background-color: transparent;}
 
-.button h5{padding-bottom: 0;}
+.button h5{padding-bottom: 0;
+  margin-bottom:-.3rem;
+  line-height: 1rem;}
 
-a.button:hover{color:none;
-  border-color:none;}
+.button:hover, .button:focus{background-color:transparent;
+  border:transparent;}
 
 
 /*MEDIA QUERIES*/
