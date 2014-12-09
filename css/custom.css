@@ -100,20 +100,46 @@ hr{background-color:#f1475e;
 div.large-12.medium-12.columns hr{width:100%;
   margin-top:-25px;}
 
+/*IMG HOVER STYLES*/
+
 .project-info a{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #10838c;
-  background-image: url('../img/tree.jpg');
+  background-color: #056b73;
+  background-image: url('');
   background-size: 100%;
   background-blend-mode: multiply;
   color: #FFF;
   visibility: hidden;
   text-decoration: none;
   transition: all 0.05s ease-in-out;}
+
+.afan a{background-image: url('../img/afan-home.jpg');}
+
+.pups-paws a{background-image: url('../img/pups-paws-home.jpg');}
+
+.monster a{background-image: url('../img/monster-home.jpg');}
+
+.heartland a{background-image: url('../img/heartland-home.jpg');}
+
+.starbucks a{background-image: url('../img/starbucks-home.jpg');}
+
+.hyvee a{background-image: url('../img/hyvee-home.jpg');}
+
+.maroon5 a{background-image: url('../img/maroon5-home.jpg');}
+
+.nra a{background-image: url('../img/nra-home.jpg');}
+
+.shotgun-weddings a{background-image: url('../img/shotgun-home.gif');}
+
+.bebs-jam a{background-image: url('../img/bebs-jam-home.jpg');}
+
+.greasy-garage a{background-image: url('../img/greasy-garage-home.gif');}
+
+.pinnacle a{background-image: url('../img/pinnacle-home.jpg');}
 
 .project-info-center{position: relative;
   top: 50%;
@@ -138,6 +164,12 @@ div.large-12.medium-12.columns hr{width:100%;
   width: 13.755em;
   right: -13.755em;
   height: 100%;
+  background-color: #3a3a3a;
+  font-family:'cooper_hewittsemibold';
+  text-transform: uppercase;
+  font-size: 14pt;
+  color:#FFF;
+  letter-spacing: .05rem;
   -webkit-transform: translate(0px, 0px);
   -moz-transform: translate(0px, 0px);
   -o-transform: translate(0px, 0px);
@@ -147,9 +179,6 @@ div.large-12.medium-12.columns hr{width:100%;
   -moz-transition: 0.15s ease;
   -o-transition: 0.15s ease;
   transition: 0.15s ease;}
-
-#menu ul{
-  list-style-type: none;}
 
  #menu.active {
   -webkit-transform: translate(-13.755em, 0px);
@@ -176,6 +205,12 @@ div.large-12.medium-12.columns hr{width:100%;
   -ms-transform: translate(-13.725em, 0px);
   transform: translate(-13.725em, 0px);}
 
+#menu ul{
+  list-style-type: none;
+  padding:10px;}
+
+#menu li{margin-bottom:10px;}
+
 .menu-link {
   position: absolute;
   top: 15px;
@@ -183,14 +218,13 @@ div.large-12.medium-12.columns hr{width:100%;
 
 .menu-link img{width:10%;}
 
-#menu a:visited{
-  color:blue;}
+a{color:#FFF;}
 
-#menu a{
-  color:green;}
+#menu a:visited{
+  color:#FFF;}
 
 #menu a:hover{
-  color:red;}
+  color: #f1475e;}
 
 nav#menu{
   z-index: 1000;}
