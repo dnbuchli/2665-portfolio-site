@@ -247,8 +247,8 @@ input[type="text"], textarea{border-radius: 5px;
   margin-bottom:-.3rem;
   line-height: 1rem;}
 
-.button:hover, .button:focus{background-color:transparent;
-  border:transparent;}
+.button:hover, .button:focus{background-color:#FFF;
+  border-color: #FFF;}
 
 
 /*MEDIA QUERIES*/
