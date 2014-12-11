@@ -34,15 +34,6 @@ footer{text-align: center;
 
 .project-info{
   position:relative;}
-  /*border-left: 1px solid rgba(58, 58, 58, 0.1);
-  border-top: 1px solid rgba(58, 58, 58, 0.1);}
-
-.project-info.greasy-garage{border-bottom:1px solid rgba(58, 58, 58, 0.1);}
-
-.project-info.pinnacle{border-bottom:1px solid rgba(58, 58, 58, 0.1);
-  {border-right:1px solid rgba(58, 58, 58, 0.1);}
-}
-*/
 
 
 h2{margin:50px 0px;
@@ -132,7 +123,7 @@ div.large-12.medium-12.columns hr{width:100%;
 
 .pups-paws a{background-image: url('../img/pups-paws-home.jpg');}
 
-.monster a{background-image: url('../img/monster-home.svg');}
+.monster a{background-image: url('../img/monster-home.png');}
 
 .heartland a{background-image: url('../img/heartland-home.jpg');}
 
@@ -144,7 +135,7 @@ div.large-12.medium-12.columns hr{width:100%;
 
 .nra a{background-image: url('../img/nra-home.jpg');}
 
-.shotgun-weddings a{background-image: url('../img/shotgun-home.svg');}
+.shotgun-weddings a{background-image: url('../img/shotgun-home.png');}
 
 .bebs-jam a{background-image: url('../img/bebs-jam-home.jpg');}
 
@@ -279,8 +270,6 @@ input[type="text"], textarea{border-radius: 5px;
 
   h2{font-size:30pt;}
 
- /* .project-info.greasy-garage{border-bottom:none;}*/
-
   #project-header{font-size:30pt;}
 
   .project-img{margin-top:50px;}
@@ -292,6 +281,8 @@ input[type="text"], textarea{border-radius: 5px;
 
   .project-img{
     padding:0;}
+
+  .project-info h3{font-size: 20pt;}
 
   }
 
