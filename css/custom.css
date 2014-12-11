@@ -31,8 +31,19 @@ footer{text-align: center;
 .the-passion{
   margin-top:-185px;}
 
+
 .project-info{
   position:relative;}
+  /*border-left: 1px solid rgba(58, 58, 58, 0.1);
+  border-top: 1px solid rgba(58, 58, 58, 0.1);}
+
+.project-info.greasy-garage{border-bottom:1px solid rgba(58, 58, 58, 0.1);}
+
+.project-info.pinnacle{border-bottom:1px solid rgba(58, 58, 58, 0.1);
+  {border-right:1px solid rgba(58, 58, 58, 0.1);}
+}
+*/
+
 
 h2{margin:50px 0px;
   font-family:'cooper_hewittsemibold';
@@ -121,7 +132,7 @@ div.large-12.medium-12.columns hr{width:100%;
 
 .pups-paws a{background-image: url('../img/pups-paws-home.jpg');}
 
-.monster a{background-image: url('../img/monster-home.jpg');}
+.monster a{background-image: url('../img/monster-home.svg');}
 
 .heartland a{background-image: url('../img/heartland-home.jpg');}
 
@@ -133,11 +144,11 @@ div.large-12.medium-12.columns hr{width:100%;
 
 .nra a{background-image: url('../img/nra-home.jpg');}
 
-.shotgun-weddings a{background-image: url('../img/shotgun-home.gif');}
+.shotgun-weddings a{background-image: url('../img/shotgun-home.svg');}
 
 .bebs-jam a{background-image: url('../img/bebs-jam-home.jpg');}
 
-.greasy-garage a{background-image: url('../img/greasy-garage-home.gif');}
+.greasy-garage a{background-image: url('../img/greasy-garage-home.png');}
 
 .pinnacle a{background-image: url('../img/pinnacle-home.jpg');}
 
@@ -152,6 +163,7 @@ div.large-12.medium-12.columns hr{width:100%;
 
 .project-info:hover a{
   visibility: visible;}
+
 
 .large-6 textarea{
   height:200px;}
@@ -263,7 +275,18 @@ input[type="text"], textarea{border-radius: 5px;
 
   .contact-form{margin:50px 0px 0px 0px;}
 
+  .logo{padding:0;}
+
+  h2{font-size:30pt;}
+
+ /* .project-info.greasy-garage{border-bottom:none;}*/
+
+  #project-header{font-size:30pt;}
+
+  .project-img{margin-top:50px;}
+
 }
+
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
