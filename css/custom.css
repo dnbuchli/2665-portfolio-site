@@ -99,8 +99,12 @@ hr{background-color:#f1475e;
   width: 84%;
   margin: 0 auto;}
 
-div.large-12.medium-12.columns hr{width:100%;
-  margin-top:-25px;}
+div.large-12.medium-12.columns hr{width:103%;
+  margin-top:-25px;
+  margin-left:-10px;}
+
+div.large-12.medium-12.columns.small-hr hr{width:100%;
+  margin-left:0;}
 
 /*IMG HOVER STYLES*/
 
@@ -117,7 +121,7 @@ div.large-12.medium-12.columns hr{width:100%;
   color: #FFF;
   visibility: hidden;
   text-decoration: none;
-  transition: all 0.05s ease-in-out;}
+  transition: transform 1s;}
 
 .afan a{background-image: url('../img/afan-home.jpg');}
 
@@ -255,7 +259,7 @@ input[type="text"], textarea{border-radius: 5px;
 
 
 /*MEDIA QUERIES*/
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 640px) {
 
   .project-img{
     padding:0;}
@@ -268,8 +272,6 @@ input[type="text"], textarea{border-radius: 5px;
 
   .logo{padding:0;}
 
-  h2{font-size:30pt;}
-
   #project-header{font-size:30pt;}
 
   .project-img{margin-top:50px;}
@@ -277,7 +279,7 @@ input[type="text"], textarea{border-radius: 5px;
 }
 
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 40.063em) and (max-width: 1024px) {
 
   .project-img{
     padding:0;}
@@ -285,6 +287,21 @@ input[type="text"], textarea{border-radius: 5px;
   .project-info h3{font-size: 20pt;}
 
   }
+
+@media only screen and (max-width: 703px) {
+
+
+  h2{font-size:35pt;}
+
+}
+
+@media only screen and (max-width: 418px) {
+
+  h2{font-size:28pt;}
+
+  }
+
+
 
 
 
