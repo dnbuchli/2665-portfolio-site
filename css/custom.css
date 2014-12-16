@@ -251,16 +251,28 @@ input[type="text"], textarea{
 .button{
   border-top:solid 3px #f1475e;
   border-bottom:solid 3px #f1475e;
-  background-color:transparent;}
+  background-color:transparent;
+  font-family:'cooper_hewittsemibold';
+  text-transform: uppercase;
+  font-size:14pt;
+  color:#f1475e;
+  }
+
+input[type="submit"]{
+  padding-bottom: .7rem;
+  line-height: 1rem;}
 
 .button h5{
-  padding-bottom:0;
-  margin-bottom:-.3rem;
-  line-height:1rem;}
+  padding-bottom: 0;
+  margin-bottom: -.3rem;
+  line-height: 1rem;}
 
 .button:hover, .button:focus{
   background-color:#FFF;
   border-color:#FFF;}
+
+input[type="submit"]:hover{
+  color:#f1475e;}
 
 /*MEDIA QUERIES*/
 

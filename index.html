@@ -260,16 +260,17 @@
         <p>I would love to answer any questions you might have or just chat about design. Drop me a line and I will be sure to contact you! If you'd rather e-mail, please contact me at info@dakotahnicole.com.</p>
       </div>
 
-        <form>
+        <form method="post" action="contact-engine.php">
           <div class="large-6 medium-6 large-offset-1 medium-offset-1 columns contact-form end">
-            <label>E-mail
-            <input type="text" placeholder="example@example.com" />
-            </label>
+            <label for="Email">E-mail</label>
+            <input type="text" name="Email" id="Email" placeholder="example@example.com" />
 
-            <label>How can I help?</label>
-            <textarea placeholder=""></textarea>
+            <label for="Message">How can I help?</label>
+            <textarea name="Message" id="Message"></textarea>
 
-            <a href="#" class="button expand"><h5>Submit</h5></a>
+            <input type="submit" name="submit" value="Submit" class="button expand submit-button"/>
+
+            <!--<a href="#" class="button expand"><h5>Submit</h5></a>-->
           </div>
         </form>
     </div>
