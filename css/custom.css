@@ -390,6 +390,22 @@ input[type="submit"]:hover{
 
 }
 
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+
+.project-info a{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#056b73;
+  background-image:url('');
+  background-size:100%;
+  color:#FFF;
+  visibility:hidden;
+  text-decoration:none;
+  transition:transform 1s;}
+}
 
 
 
