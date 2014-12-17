@@ -1,8 +1,8 @@
 <?php
 
-$EmailFrom = "Website Form";
+$EmailFrom = "Website";
 $EmailTo = "info@dakotahnicole.com";
-$Subject = "Editionh";
+$Subject = "";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
