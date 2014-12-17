@@ -17,12 +17,10 @@
       <div class="large-2 medium-2 small-2 logo columns"><a class="sub-link" href="index.html"><img src="img/logo.svg" alt="logo"></a></div>
       <div class="large-10 medium-10 small-10 columns">
         <h2>Your message has been sent!</h2>
-        <div class="large-12 medium-12 hide-for-small-only columns"><hr></div>
+      <div class="large-10 medium-10 small-10 columns">
+        <a href="index.html"><h5>back to editionh</h5></a>
       </div>
-    </div>
-
-    <div class="row show-for-small-only">
-      <div class="large-12 medium-12 columns small-hr"><hr></div>
+      </div>
     </div>
 
 </div>

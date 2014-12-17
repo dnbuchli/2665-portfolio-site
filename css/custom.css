@@ -277,6 +277,13 @@ input[type="submit"]{
 input[type="submit"]:hover{
   color:#f1475e;}
 
+p#inline-text img{
+  width:8%;
+  margin-right:2%;}
+
+a[href^="mailto"] { 
+  color:#10838c;}
+
 
 /*MEDIA QUERIES*/
 
